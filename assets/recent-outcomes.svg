@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="524" height="246" preserveAspectRatio="xMinYMin meet" viewBox="0 0 524 246" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="524" height="246"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-246)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 145,29 L 145,238 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="139.21875" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">0%</text>
+			<path d="M 220,29 L 220,238 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="211.994140625" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">25%</text>
+			<path d="M 295,29 L 295,238 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="286.994140625" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">50%</text>
+			<path d="M 370,29 L 370,238 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="361.994140625" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">75%</text>
+			<path d="M 445,29 L 445,238 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="434.76953125" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">100%</text>
+			<text x="0" y="211" style="font-family: PolBold; font-size: 12px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,422) scale(1,-1)">Substantiated</text>
+			<rect x="145" y="198" width="154.05405405405406" height="34" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,46%,38%); fill-rule: evenodd;"/>
+			<text x="308.05405405405406" y="209" style="font-family: PolBold; font-size: 18px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,418) scale(1,-1)">51.4%</text>
+			<text x="0" y="136" style="font-family: PolBold; font-size: 12px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,272) scale(1,-1)">Exonerated</text>
+			<rect x="145" y="123" width="72.97297297297297" height="34" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,23%,32%); fill-rule: evenodd;"/>
+			<text x="226.97297297297297" y="134" style="font-family: PolBold; font-size: 18px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,268) scale(1,-1)">24.3%</text>
+			<text x="0" y="61" style="font-family: PolBold; font-size: 12px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,122) scale(1,-1)">Unsubstantiated</text>
+			<rect x="145" y="48" width="72.97297297297297" height="34" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,80%,82%); fill-rule: evenodd;"/>
+			<text x="226.97297297297297" y="59" style="font-family: PolBold; font-size: 18px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,118) scale(1,-1)">24.3%</text>
+		</g>
+	</g>
+</svg>

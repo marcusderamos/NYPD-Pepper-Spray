@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="524" height="310" preserveAspectRatio="xMinYMin meet" viewBox="0 0 524 310" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="524" height="310"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-310)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 145,29 L 145,298 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="139.21875" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">0%</text>
+			<path d="M 220,29 L 220,298 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="211.994140625" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">25%</text>
+			<path d="M 295,29 L 295,298 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="286.994140625" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">50%</text>
+			<path d="M 370,29 L 370,298 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="361.994140625" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">75%</text>
+			<path d="M 445,29 L 445,298 Z" style="stroke: rgb(89%,89%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="434.76953125" y="14" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,28) scale(1,-1)">100%</text>
+			<text x="0" y="263" style="font-family: PolBold; font-size: 12px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,526) scale(1,-1)">Exonerated</text>
+			<text x="0" y="245" style="font-family: PolBody; font-size: 9px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,490) scale(1,-1)">233 of 324 allegations</text>
+			<rect x="145" y="250" width="215.74074074074076" height="40" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,23%,32%); fill-rule: evenodd;"/>
+			<text x="369.74074074074076" y="261" style="font-family: PolBold; font-size: 22px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,522) scale(1,-1)">71.9%</text>
+			<text x="0" y="173" style="font-family: PolBold; font-size: 12px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,346) scale(1,-1)">Substantiated</text>
+			<text x="0" y="155" style="font-family: PolBody; font-size: 9px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,310) scale(1,-1)">43 of 324 allegations</text>
+			<rect x="145" y="160" width="39.81481481481481" height="40" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,46%,38%); fill-rule: evenodd;"/>
+			<text x="193.8148148148148" y="171" style="font-family: PolBold; font-size: 22px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,342) scale(1,-1)">13.3%</text>
+			<text x="0" y="83" style="font-family: PolBold; font-size: 12px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,166) scale(1,-1)">Unsubstantiated</text>
+			<text x="0" y="65" style="font-family: PolBody; font-size: 9px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,130) scale(1,-1)">48 of 324 allegations</text>
+			<rect x="145" y="70" width="44.44444444444446" height="40" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,80%,82%); fill-rule: evenodd;"/>
+			<text x="198.44444444444446" y="81" style="font-family: PolBold; font-size: 22px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,162) scale(1,-1)">14.8%</text>
+		</g>
+	</g>
+</svg>

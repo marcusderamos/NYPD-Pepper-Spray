@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+    <head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project 2 Report | NYPD Pepper-Spray Allegations</title>
+        <style>
+            :root {
+                --color-neutral-95: hsl(220 10% 95%);
+                --color-neutral-90: hsl(220 10% 90%);
+                --color-neutral-80: hsl(220 10% 80%);
+                --color-neutral-70: hsl(220 10% 70%);
+                --color-neutral-60: hsl(220 10% 60%);
+                --color-neutral-50: hsl(220 10% 50%);
+                --color-neutral-40: hsl(220 10% 40%);
+                --color-neutral-30: hsl(220 10% 30%);
+                --color-neutral-20: hsl(220 10% 20%);
+                --color-neutral-10: hsl(220 10% 10%);
+            }
+
+            html {
+                font: 100%/1.5 system-ui;
+                counter-reset: figure;
+                background: var(--color-neutral-95);
+                max-width: min(75vw, 80em);
+                margin: 0 auto;
+            }
+
+            /* Headings */
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                line-height: 1.1;
+                font-weight: 600;
+                text-wrap: balance;
+            }
+
+            h1,
+            h2 {
+                border-bottom: 1px solid var(--color-neutral-80);
+                padding-bottom: 0.2em;
+            }
+
+            h1 {
+                margin-block: 1em 0.5rem;
+                font-size: clamp(2.5em, 150% + 2vh + 2vw, 10vmin);
+                font-weight: 800;
+
+                small {
+                    display: block;
+                    width: fit-content;
+                    padding: 0.2em 0.5em;
+                    margin-inline: auto;
+                    color: white;
+                    background: var(--color-neutral-40);
+                    font-size: 40%;
+                    text-transform: uppercase;
+                    white-space: nowrap;
+                }
+            }
+
+            h2 {
+                font-size: 180%;
+                color: var(--color-neutral-30);
+            }
+
+            h3 {
+                font-size: 130%;
+            }
+
+            /* Lists */
+
+            ul,
+            ol {
+                padding-inline-start: 2em;
+            }
+
+            li {
+                &::marker {
+                    color: var(--color-neutral-40);
+                }
+
+                + li {
+                    margin-top: 0.2em;
+                }
+            }
+
+            /* Sectioning elements */
+
+            header {
+                padding-block: 1em;
+                text-align: center;
+            }
+
+            main {
+                background: white;
+                color: var(--color-neutral-20);
+                border-radius: 1rem;
+                padding: 0.1rem 2rem;
+            }
+
+            /* Figures */
+
+            figure {
+                margin: 1em 0;
+                padding: 0.5rem;
+                margin-inline: -0.5em;
+                border: 1px solid var(--color-neutral-80);
+                box-shadow: 0 0.1em 0.2em var(--color-neutral-95);
+                text-align: center;
+                background: white;
+
+                > figcaption {
+                    font: 500 75% var(--font-sans);
+                    background: var(--color-neutral-95);
+                    padding: 0.5rem;
+                    margin: -0.5rem;
+                    margin-top: 0.5rem;
+                    counter-increment: figure;
+                    text-align: left;
+
+                    &::before {
+                        content: "Figure " counter(figure) ": ";
+                        font-weight: bold;
+                        color: var(--color-neutral-40);
+                    }
+
+                    a:not(:hover, :focus, :active) {
+                        color: inherit;
+                        text-decoration: underline;
+                        text-decoration-color: color-mix(
+                            in lab,
+                            currentColor,
+                            transparent 70%
+                        );
+                    }
+                }
+            }
+        </style>
+    <style>
+:root{--font-sans:system-ui,sans-serif}
+img{display:block;width:100%;height:auto;max-width:100%}
+.supporting-chart{width:84%;margin:24px auto 0}
+.score{font-size:.85em;font-weight:500;white-space:nowrap;color:var(--color-neutral-40)}
+.decisions h4{margin-bottom:.35em}.decisions p{margin-top:0}.decisions li+li{margin-top:1.2em}
+.chart-title{font-size:1.45em;margin:0 0 .4em}.chart-subtitle{font-size:.9em;text-align:left;color:var(--color-neutral-40)}
+.source,.review-note{font-size:.85em;color:var(--color-neutral-40)}
+.review-note{border-left:3px solid #b69557;background:#faf6eb;padding:.8em 1em;text-align:left}
+.chart-definition{font-size:.85em;text-align:left}
+section{padding-bottom:1.5em}footer{padding:1em 0 2em;font-size:.85em}
+@media(max-width:700px){html{max-width:100%;padding:0 .75em}main{padding:.1rem 1rem}.supporting-chart{width:100%}h1{font-size:2.2em}}
+</style></head>
+<body><header>
+<h1><small>Project 2</small>Persuasive or Deceptive Visualization?</h1>
+<p><strong>Natalie Wu</strong> — <a href="mailto:nswu@ucsd.edu">nswu@ucsd.edu</a><br>
+<strong>Rishika Sahu</strong> — <a href="mailto:rsahu@ucsd.edu">rsahu@ucsd.edu</a><br>
+<strong>Marcus De Ramos</strong> — <a href="mailto:mderamos@ucsd.edu">mderamos@ucsd.edu</a></p>
+</header><main>
+<h2>Proposition: NYPD pepper-spray allegations were usually ruled permissible.</h2>
+<p class="review-note">Team review draft: review the design scores and reflection before submitting.</p>
+<section id="for"><h3>FOR the Proposition</h3>
+<figure>
+<h4 class="chart-title">NYPD Pepper-Spray Allegations Were Usually Ruled Permissible</h4>
+<p class="chart-subtitle">Among allegations received in 1999–2019, 71.9% were exonerated.</p>
+<img src="assets/overall.svg" width="524" height="310" alt="Among 324 allegations, 233 were exonerated (71.9%), 43 substantiated (13.3%), and 48 unsubstantiated (14.8%).">
+<p class="chart-definition">Exonerated means the conduct occurred but was permitted under NYPD rules.</p>
+<figcaption>Overall disposition of pepper-spray allegations in the selected release. Source: ProPublica / NYC Civilian Complaint Review Board (CCRB), July 2020.</figcaption>
+</figure>
+<p><strong>Design Decisions and Rationale:</strong></p>
+<p class="source">Scores: −2 = fully deceptive; +2 = fully earnest. Ratings are the team’s interpretation and remain subject to review.</p>
+<ul class="decisions"><li><h4>Pool all received years <span class="score">-1</span></h4><p>Combining 1999-2019 gives a stable-looking historical majority: 233 of 324 allegations were exonerated. This hides the recent reversal; a year-by-year view would make the temporal variation more visible.</p></li><li><h4>Use aligned lengths and full axes <span class="score">+2</span></h4><p>The disposition bars share a zero baseline and a 0%-100% scale. This makes their sizes directly comparable without exaggerating the gap through axis truncation.</p></li><li><h4>Lead with exoneration <span class="score">+1</span></h4><p>Exonerated is the first outcome, with a long navy bar and a large percentage. That order directs attention toward the majority while retaining the other findings and their counts.</p></li><li><h4>Focus on one outcome distribution <span class="score">+1</span></h4><p>The FOR visualization uses only the pepper-spray disposition breakdown rather than comparisons with other kinds of force. This keeps the evidence tied directly to the proposition, while omitting a time breakdown that would complicate the historical impression.</p></li><li><h4>Use a persuasive headline with a definition <span class="score">+1</span></h4><p>The title translates exoneration into permitted conduct, making the argument understandable. The definition and allegation wording limit the stronger inference that all NYPD pepper-spray use was justified.</p></li></ul>
+</section>
+<section id="against"><h3>AGAINST the Proposition</h3>
+<figure>
+<h4 class="chart-title">In 2016–2019, Pepper-Spray Allegations Were Substantiated More Often Than Exonerated</h4>
+<p class="chart-subtitle">The recent outcome distribution reverses the overall historical ordering.</p>
+<img src="assets/recent-outcomes.svg" width="524" height="246" alt="Recent pepper-spray outcomes: 51.4% substantiated, 24.3% exonerated, and 24.3% unsubstantiated.">
+<p class="chart-definition">Substantiated means the conduct occurred and violated NYPD rules.</p>
+<h4>Historical Context: Substantiation By Period</h4>
+<img class="supporting-chart" src="assets/substantiation-trend.svg" width="524" height="178" alt="Substantiation rates by received-year bin: 0%, 6.25%, 8.41%, 10.09%, and 51.35%. The bins have unequal lengths.">
+<figcaption>Recent dispositions with historical substantiation rates as supporting context. The selected recent period creates an opposing impression; it does not disprove the historical majority. Source: ProPublica / NYC Civilian Complaint Review Board (CCRB), July 2020.</figcaption>
+</figure>
+<p><strong>Design Decisions and Rationale:</strong></p>
+<ul class="decisions"><li><h4>Compare recent findings directly <span class="score">+1</span></h4><p>The main bars compare 19 substantiated allegations with 9 exonerated allegations, retaining the 9 unsubstantiated records. This directly challenges the impression of routine permissibility without depending on a majority claim. The supporting trend supplies historical context rather than implying a steady annual increase.</p></li><li><h4>Emphasize a selected recent period <span class="score">-1.5</span></h4><p>The headline and main bars focus on 2016-2019, while the trend highlights its last point. This choice matters: the broader 2010-2019 window contains 167 allegations and is still 61.7% exonerated versus 18.0% substantiated. The opposing impression is therefore a selective time framing, not a robust conclusion across reasonable windows.</p></li><li><h4>Keep the full scale and consistent denominator <span class="score">+2</span></h4><p>Every point uses substantiated allegations divided by all Pepper spray allegations in its period, including exonerated and unsubstantiated records. The 0%-100% scale preserves magnitude and avoids an exaggerated slope.</p></li><li><h4>Use ordered bins and disclose their sizes <span class="score">-0.5</span></h4><p>Binning makes the sparse early records readable, but unequal periods appear at equal horizontal distances. The first bin has 7 allegations over two years, middle bins 64, 107, and 109 over five years each, and the latest has 37 over four years; slopes do not represent a constant annual rate.</p></li><li><h4>Omit sample counts from the chart face <span class="score">-1</span></h4><p>The visualization retains the dates and percentages but omits the recent sample count to keep attention on the outcome contrast. This is a selective omission: there are only 37 allegations from 22 complaints. Ten complaints have substantiated pepper-spray findings versus seven with exonerated findings, and two complaints contribute 10 of the 19 substantiated allegations. These limits remain explicit here and in the reflection.</p></li></ul>
+</section>
+<section id="reflection"><h2>Final Reflection</h2><p>The central design choice was aggregation. Pooling all available years produces a 71.9% exonerated majority, while the latest period has a 51.4% substantiated share. Both calculations are correct, but their titles and ordering invite different conclusions. The recent view challenges treating the historical average as a description of every period; it does not disprove that average.</p><p>The checkpoint feedback identified a weakness in relying on 37 recent allegations. Those records come from 22 complaints, and two complaints contribute 10 of the 19 substantiated allegations. At complaint level, 10 have substantiated pepper-spray findings versus 7 with exonerated findings; the direct ordering survives but there is no substantiated majority of complaints. The broader 2010-2019 window is 61.7% exonerated. These checks make the recent-period selection a central ethical issue rather than a limitation solved by styling.</p><p>For this project, ethical persuasion means using accurate calculations while making scope, definitions, and selection choices recoverable. Emphasis becomes misleading when a reader is encouraged to generalize a recent subset to the full history, interpret selected complaints as every use of force, or mistake administrative findings for actual punishment. Honest axes and visible sources help, but they do not resolve those interpretation risks.</p></section>
+<section id="methods"><h2>Methods And Limitations</h2>
+<p>The original CSV is filtered to the exact allegation label <strong>Pepper spray</strong>, with 324 allegation records. <strong>Mace</strong> is a separate label. All “Substantiated (…)” values are combined. Rates divide the relevant outcome count by all allegations in each group, including unsubstantiated findings.</p>
+<p>Received-year periods contain 7, 64, 107, 109, and 37 allegations, respectively. Actual pepper-spray records span 1999–2019. Equal horizontal spacing represents ordered bins, not equal elapsed years or an annual change rate. The recent period includes only 22 distinct complaints; multiple rows may share a complaint or officer.</p>
+<p>The conclusion depends on the time window: 2010–2019 contains 167 allegations, 61.7% exonerated and 18.0% substantiated. In 2015–2019, the allegation-level comparison is 41.1% substantiated versus 39.3% exonerated, but weighting complaints equally reverses that ordering. In 2016–2019, 10 of 22 complaints have substantiated pepper-spray findings versus 7 with exonerated findings. Two complaints contribute 10 of the 19 recent substantiated allegations.</p>
+<p>The release selects officers still serving in June 2020 with at least one substantiated allegation, contains closed investigated cases, and excludes unfounded findings. Recent unresolved cases may be absent. Source rows, including apparent duplicates, are retained because no unique allegation ID establishes duplicate errors. The analysis establishes neither causation nor actual punishment.</p>
+<p><strong>Unsubstantiated</strong> means investigators could not establish both that the conduct occurred and that it violated NYPD rules. Exonerated does not mean a false complaint, and substantiated does not establish actual discipline.</p>
+<p><a href="https://www.propublica.org/datastore/dataset/civilian-complaints-against-new-york-city-police-officers">Dataset and documentation</a> · <a href="https://dsc106.com/projects/project2/">Assignment</a></p></section>
+</main><footer>Source: ProPublica / NYC Civilian Complaint Review Board (CCRB), July 2020</footer></body></html>

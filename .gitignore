@@ -1,0 +1,10 @@
+# Previous analyses, drafts, raw data, and build previews remain local.
+/_archive/
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.codex/
+.agents/
+.aws/
