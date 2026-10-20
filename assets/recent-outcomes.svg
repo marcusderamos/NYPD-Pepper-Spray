@@ -2,7 +2,7 @@
 <!DOCTYPE svg
   PUBLIC '-//W3C//DTD SVG 1.0//EN'
   'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-<svg width="524" height="246" preserveAspectRatio="xMinYMin meet" viewBox="0 0 524 246" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="524" height="266" preserveAspectRatio="xMinYMin meet" viewBox="0 0 524 266" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title>...</title>
 	<desc>...</desc>
 	<clipPath id="clip">
@@ -31,4 +31,5 @@
 			<text x="226.97297297297297" y="59" style="font-family: PolBold; font-size: 18px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,118) scale(1,-1)">24.3%</text>
 		</g>
 	</g>
+<text x="295" y="261" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:8px;fill:#686b62">Allegations (%)</text>
 </svg>

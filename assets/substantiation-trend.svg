@@ -2,7 +2,7 @@
 <!DOCTYPE svg
   PUBLIC '-//W3C//DTD SVG 1.0//EN'
   'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-<svg width="524" height="178" preserveAspectRatio="xMinYMin meet" viewBox="0 0 524 178" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="524" height="192" preserveAspectRatio="xMinYMin meet" viewBox="0 0 524 192" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title>...</title>
 	<desc>...</desc>
 	<clipPath id="clip">
@@ -26,23 +26,24 @@
 			<path d="M 258,43.925234 L 366,45.908257 Z" style="stroke: rgb(89%,46%,38%); stroke-linecap: butt; stroke-width: 1.8;"/>
 			<path d="M 366,45.908257 L 474,94.594595 Z" style="stroke: rgb(89%,46%,38%); stroke-linecap: butt; stroke-width: 1.8;"/>
 			<circle cx="42.0" cy="34.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,46%,38%); fill-rule: evenodd;"/>
-			<text x="31.7431640625" y="43.0" style="font-family: PolBold; font-size: 9px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,86) scale(1,-1)">0.0%</text>
+			<text x="31.7431640625" y="43.0" style="font-family: PolBold; font-size: 8px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,86) scale(1,-1)">0.0%</text>
 			<text x="21.978515625" y="20" style="font-family: PolBody; font-size: 8px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,40) scale(1,-1)">1999–2000</text>
 			<circle cx="150.0" cy="41.375" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,46%,38%); fill-rule: evenodd;"/>
-			<text x="139.7431640625" y="50.375" style="font-family: PolBold; font-size: 9px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,100) scale(1,-1)">6.2%</text>
+			<text x="139.7431640625" y="50.375" style="font-family: PolBold; font-size: 8px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,100) scale(1,-1)">6.2%</text>
 			<text x="129.978515625" y="20" style="font-family: PolBody; font-size: 8px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,40) scale(1,-1)">2001–2005</text>
 			<circle cx="258.0" cy="43.925233644859816" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,46%,38%); fill-rule: evenodd;"/>
-			<text x="247.7431640625" y="52.925233644859816" style="font-family: PolBold; font-size: 9px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,105) scale(1,-1)">8.4%</text>
+			<text x="247.7431640625" y="52.925233644859816" style="font-family: PolBold; font-size: 8px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,105) scale(1,-1)">8.4%</text>
 			<text x="237.978515625" y="20" style="font-family: PolBody; font-size: 8px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,40) scale(1,-1)">2006–2010</text>
 			<circle cx="366.0" cy="45.908256880733944" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,46%,38%); fill-rule: evenodd;"/>
-			<text x="353.240478515625" y="54.908256880733944" style="font-family: PolBold; font-size: 9px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,109) scale(1,-1)">10.1%</text>
+			<text x="353.240478515625" y="54.908256880733944" style="font-family: PolBold; font-size: 8px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,109) scale(1,-1)">10.1%</text>
 			<text x="345.978515625" y="20" style="font-family: PolBody; font-size: 8px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,40) scale(1,-1)">2011–2015</text>
 			<circle cx="474.0" cy="94.5945945945946" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,46%,38%); fill-rule: evenodd;"/>
-			<text x="461.240478515625" y="103.5945945945946" style="font-family: PolBold; font-size: 9px;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,207) scale(1,-1)">51.4%</text>
+			<text x="461.240478515625" y="103.5945945945946" style="font-family: PolBold; font-size: 10px; font-weight:700;fill: rgb(89%,46%,38%); stroke:none;" transform="translate(0,207) scale(1,-1)">51.4%</text>
 			<text x="453.978515625" y="20" style="font-family: PolBold; font-size: 8px;fill: rgb(16%,16%,15%); stroke:none;" transform="translate(0,40) scale(1,-1)">2016–2019</text>
 			<g transform=" matrix(0,1,-1,0,8,93)">
 				<text x="-31.794921875" y="0" style="font-family: PolBody; font-size: 8px;fill: rgb(40%,41%,38%); stroke:none;" transform="translate(0,0) scale(1,-1)">Substantiated (%)</text>
 			</g>
 		</g>
 	</g>
+<text x="258" y="187" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:8px;fill:#686b62">Complaint Received Period</text>
 </svg>
